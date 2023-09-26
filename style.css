@@ -1,0 +1,71 @@
+/* Resetear algunos estilos por defecto */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el encabezado de la sección */
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+/* Estilo para el formulario de inicio de sesión */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de inicio de sesión */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el contenedor del contenido del administrador */
+#contenido_admin {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Estilo para los enlaces de salida y acceso */
+#contenido_admin a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilo para los párrafos dentro del contenido del administrador */
+#contenido_admin p {
+    margin-bottom: 10px;
+}

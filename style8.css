@@ -1,0 +1,103 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilo para la lista de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Estilo para los títulos de especialidades */
+h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilo para la lista de médicos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #aeaeae;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilo para la imagen de médico */
+li img {
+    float: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;    
+}
+
+/* Estilo para los detalles del médico */
+li p {
+    margin: 0;
+}
+
+/* Estilo para los enlaces de navegación */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilo para los enlaces de navegación al pasar el mouse */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de sombra y transformación al pasar el mouse */
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Estilo para el elemento li */
+li {
+    clear: both; /* Limpiar los elementos flotantes antes del elemento */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}

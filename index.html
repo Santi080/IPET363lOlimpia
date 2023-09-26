@@ -1,0 +1,36 @@
+<?php
+session_start();
+
+// Verificar si el usuario está autenticado
+if (!isset($_SESSION["usuario_id"])) {
+    header("Location: login.php");
+    exit;
+}
+
+// Mostrar información de inicio de sesión
+$nombre_usuario = $_SESSION["usuario_nombre"];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Página de Inicio</title>
+</head>
+<body>
+    <h2>Bienvenido, <?php echo $nombre_usuario; ?>!</h2>
+    <p>Esta es la página de inicio.</p>
+    <div class="container">
+        <h1>Bienvenido al Hospital de Tucuman</h1>
+        <p>Por favor, selecciona una opción:</p>
+        
+        <div class="button-container">
+            <button><a href="registro.php">Registrarse</a></button>
+            <button><a href="login.php">Iniciar Sesión</a></button>
+        </div>
+    </div>
+    <a href="cerrar_sesion.php">Cerrar Sesión</a>
+</body>
+</html>

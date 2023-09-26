@@ -1,0 +1,135 @@
+/* Reset de estilos y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sección del héroe */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #090cff;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Sección de servicios y especialidades */
+.services, .specialties {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.services h2, .specialties h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services ul, .specialties ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li, .specialties li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+#text{
+    text-align: center;
+    color: #007BFF;
+}
+#foto{
+    display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            height: 100vh;
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("img/fondo-hospital-sitio-web-generativo-ia_895799-9186.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+}
+#tit{
+    color: rgb(0, 136, 255);
+    text-shadow: 1px 3px rgb(0, 0, 0);
+
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
